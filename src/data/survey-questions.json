@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "id": "poolName",
+      "label": "What's the name of the pool?",
+      "type": "dropdown",
+      "options": [
+        "Lings Forum",
+        "Hitchin Leisure Centre",
+        "Bletchley Leisure Centre"
+      ],
+      "required": true,
+      "date_created": "2025-11-23T00:00:00.000Z",
+      "date_modified": "2025-11-23T00:00:00.000Z"
+    },
+    {
+      "id": "floor",
+      "label": "Floor cleanliness",
+      "type": "checkbox",
+      "options": [
+        "Very Clean",
+        "Clean",
+        "Acceptable",
+        "Needs Cleaning",
+        "Poor"
+      ],
+      "required": false,
+      "date_created": "2025-11-23T00:00:00.000Z",
+      "date_modified": "2025-11-23T00:00:00.000Z"
+    },
+    {
+      "id": "crowded",
+      "label": "Crowdedness",
+      "type": "dropdown",
+      "options": [
+        "0-2 people",
+        "3-4 people",
+        "more"
+      ],
+      "required": true,
+      "date_created": "2025-11-23T00:00:00.000Z",
+      "date_modified": "2025-11-23T00:00:00.000Z"
+    },
+    {
+      "id": "showers",
+      "label": "Showers working",
+      "type": "checkbox",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "required": false,
+      "date_created": "2025-11-23T00:00:00.000Z",
+      "date_modified": "2025-11-23T00:00:00.000Z"
+    }
+  ]
+}
+

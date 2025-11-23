@@ -3,7 +3,7 @@
   <form @submit.prevent="save">
     <div>
       <label for="poolName">What's the name of the pool?</label>
-      <input type="text" id="poolName" v-model="poolName" value="Moulton" />
+      <input type="text" id="poolName" v-model="poolName"  />
     </div>
     <div>
       <label>Floor cleanliness:</label>
@@ -29,11 +29,13 @@
 
 <script setup>
 import { ref } from 'vue';
+import surveyData from '@/data/survey-questions.json';
 
-const floor = ref(3);
-const crowded = ref('0–2 people');
-const showers = ref(true);
-const poolName = ref('Moulton');
+const surveyQuestions = ref(surveyData);
+const floor = ref(null);
+const crowded = ref(null);
+const showers = ref(null);
+const poolName = ref(null);
 
 function save() {
   // Clear previous responses

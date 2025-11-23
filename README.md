@@ -2,11 +2,22 @@
 
 Run with npm run serve
 
+## Public intro, info and disclaimer
+This is an experimental application, please don't misuse it. Each user has 3 questions per day  they can fill in to avoid biased responses.
+Our aim is to provide feedback of the facility users to the centre managements.
+Please specify which kind of swimmer you are: Lane swimmer, other.
+The data collection is anonym. If you'd like to contact the developers, please write to sacred.affection@gmail.com 
+The reports aren't public at the moment. As soon as enough data is available of the centres we will consider some sort of reporting without showing the names of the centres.
 
 
 
+## code
+vite frontend
+no backend
 
 
+## difficult stuff
+get the centre names and the real centres together. If the centre is not listed already in the dropdown, or if this can't be determined, drop the data.
 
 
 
